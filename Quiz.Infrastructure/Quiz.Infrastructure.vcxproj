@@ -130,7 +130,7 @@
     <ClCompile Include="Quiz.Infrastructure.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\quiz.Application\data\QABankOne.txt" />
+    <Text Include="QABankOne.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

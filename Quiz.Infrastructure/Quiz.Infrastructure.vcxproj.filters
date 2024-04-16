@@ -23,7 +23,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\quiz.Application\data\QABankOne.txt">
+    <Text Include="QABankOne.txt">
       <Filter>data</Filter>
     </Text>
   </ItemGroup>
