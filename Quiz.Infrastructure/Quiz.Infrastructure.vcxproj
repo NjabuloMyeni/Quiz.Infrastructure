@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Quiz.Infrastructure.cpp" />
+    <ClCompile Include="server.cpp" />
+    <ClCompile Include="startUp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="QABankOne.txt" />
