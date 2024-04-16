@@ -1,4 +1,24 @@
-Which of the following is not a valid identifier name in Python? Justify reason for it not being a valid name ~ ~Correct5Total;_Radius;pie;While
+Which of the following is not a valid identifier name in Python? ~ ~Correct5Total;_Radius;pie;While
 ------------------------------------------------------------------------------------------------------------------
-Which one of the following options is a Temporary memory ~ ~Control unit;CorrectRAM;Software;Smart card
+Which one of the following options is a Temporary memory? ~ ~Control unit;CorrectRAM;Software;Smart card
 ------------------------------------------------------------------------------------------------------------------
+What are large commercial computers used in banks, hotels, et cetera? ~ ~CorrectMainframes;Smart card;Machines;Software
+-------------------------------------------------------------------------------------------------------------------
+What determines the order of execution of the program instructions? ~ ~CorrectControl unit;
+----------------------------------------------------------------------------------------------------------------------
+Which is the most commonly used input device? ~ ~
+----------------------------------------------------------------------------------------------------------------------
+What is used in Windows application programs to display shortcuts? ~ ~
+----------------------------------------------------------------------------------------------------------------------
+What is used by architects and engineers to create diagrams or graphic drawings? ~ ~
+----------------------------------------------------------------------------------------------------------------------
+What is a temporary memory? ~ ~
+----------------------------------------------------------------------------------------------------------------------
+What is the term for a small device, about the size of a credit card, designed specifically for storing passwords and other personal information securely? ~ ~
+----------------------------------------------------------------------------------------------------------------------
+How to access the internet from any hotspots at airports and coffee shops? ~ ~
+----------------------------------------------------------------------------------------------------------------------
+What is the set of instructions written in programming language and interpreted by the CPU? ~ ~
+----------------------------------------------------------------------------------------------------------------------
+What programs are used to communicate via the internet to contacts worldwide? ~ ~
+----------------------------------------------------------------------------------------------------------------------
