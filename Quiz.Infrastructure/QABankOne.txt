@@ -1,0 +1,4 @@
+Which of the following is not a valid identifier name in Python? Justify reason for it not being a valid name ~ ~Correct5Total;_Radius;pie;While
+------------------------------------------------------------------------------------------------------------------
+Which one of the following options is a Temporary memory ~ ~Control unit;CorrectRAM;Software;Smart card
+------------------------------------------------------------------------------------------------------------------
