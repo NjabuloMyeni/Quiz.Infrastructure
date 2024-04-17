@@ -12,7 +12,13 @@ What is used in Windows application programs to display shortcuts? ~ ~
 ----------------------------------------------------------------------------------------------------------------------
 What is used by architects and engineers to create diagrams or graphic drawings? ~ ~
 ----------------------------------------------------------------------------------------------------------------------
-What is a temporary memory? ~ ~
+Which data structure uses Last In, First Out (LIFO) principle? ~ ~
+A) Queue
+B) Stack
+C) Tree
+D) Linked List
+Answer: B
+ 
 ----------------------------------------------------------------------------------------------------------------------
 What is the term for a small device, about the size of a credit card, designed specifically for storing passwords and other personal information securely? ~ ~
 ----------------------------------------------------------------------------------------------------------------------
@@ -22,3 +28,364 @@ What is the set of instructions written in programming language and interpreted 
 ----------------------------------------------------------------------------------------------------------------------
 What programs are used to communicate via the internet to contacts worldwide? ~ ~
 ----------------------------------------------------------------------------------------------------------------------
+What does HTML stand for? ~ ~
+A) Hyper Transfer Markup Language
+B) Hyper Text Markup Language
+C) Hyperlink and Text Markup Language
+D) High-level Text Markup Language
+Answer: B
+----------------------------------------------------------------------------------------------------------------------
+Which programming language is commonly used for developing Android applications? ~ ~
+A) Swift
+B) Java
+C) C++
+D) Python
+Answer: B
+----------------------------------------------------------------------------------------------------------------------
+Which data structure uses Last In, First Out (LIFO) principle? ~ ~
+A) Queue
+B) Stack
+C) Tree
+D) Linked List
+Answer: B
+----------------------------------------------------------------------------------------------------------------------
+What does CPU stand for? ~ ~
+A) Computer Processing Unit
+B) Central Processing Unit
+C) Computer Personal Unit
+D) Central Personal Unit
+Answer: B
+----------------------------------------------------------------------------------------------------------------------
+Which programming language is often used for data analysis and scientific computing? ~ ~
+A) Java
+B) Python
+C) C++
+D) Ruby
+Answer: B
+
+----------------------------------------------------------------------------------------------------------------------
+What is the full form of LAN? ~ ~
+A) Local Access Network
+B) Large Area Network
+C) Local Area Network
+D) Limited Access Network
+Answer: C
+----------------------------------------------------------------------------------------------------------------------
+Which programming language is commonly used for web development? ~ ~
+A) Java
+B) C#
+C) JavaScript
+D) Swift
+Answer: C
+----------------------------------------------------------------------------------------------------------------------
+Which company developed the Python programming language? ~ ~
+A) Google
+B) Microsoft
+C) Apple
+D) Dropbox
+Answer: D
+----------------------------------------------------------------------------------------------------------------------
+What does SQL stand for? ~ ~
+A) Secure Query Language
+B) Simple Question Language
+C) Structured Query Language
+D) System Query Language
+Answer: C
+----------------------------------------------------------------------------------------------------------------------
+What does URL stand for? ~ ~
+A) Universal Resource Locator
+B) Uniform Resource Locator
+C) Unified Resource Locator
+D) Unique Resource Locator
+Answer: B
+----------------------------------------------------------------------------------------------------------------------
+Which of the following is not a programming language? ~ ~
+A) Python
+B) MySQL
+C) Java
+D) Ruby
+Answer: B
+----------------------------------------------------------------------------------------------------------------------
+Which programming language is often used for data analysis and scientific computing? ~ ~
+A) Java
+B) Python
+C) C++
+D) Ruby
+Answer: B
+----------------------------------------------------------------------------------------------------------------------
+Which of the following is used for version control? ~ ~
+A) Git
+B) FTP
+C) SSH
+D) SMTP
+Answer: A
+----------------------------------------------------------------------------------------------------------------------
+What is the binary equivalent of the decimal number 10? ~ ~
+A) 1000
+B) 1010
+C) 1100
+D) 1111
+Answer: B
+----------------------------------------------------------------------------------------------------------------------
+Which of the following is a type of network topology? ~ ~
+A) Loop
+B) Star
+C) Spiral
+D) Mesh
+Answer: B
+----------------------------------------------------------------------------------------------------------------------
+Which symbol is used for comments in Python? ~ ~
+A) //
+B) #
+C) ;
+D) /*
+Answer: B
+----------------------------------------------------------------------------------------------------------------------
+Which data structure stores elements in key-value pairs? ~ ~
+A) Array
+B) Stack
+C) Queue
+D) Dictionary
+Answer: D
+----------------------------------------------------------------------------------------------------------------------
+Which of the following is an example of a high-level programming language? ~ ~
+A) Assembly language
+B) Machine language
+C) C
+D) HTML
+Answer: C
+----------------------------------------------------------------------------------------------------------------------
+Which of the following is a web browser? ~ ~
+A) Google
+B) Bing
+C) Firefox
+D) Yahoo
+Answer: C
+----------------------------------------------------------------------------------------------------------------------
+Which of the following is an example of a relational database management system (RDBMS)? ~ ~
+A) MongoDB
+B) SQLite
+C) Redis
+D) Cassandra
+Answer: B
+----------------------------------------------------------------------------------------------------------------------
+Which of the following is used for real-time communication over the Internet? ~ ~
+A) FTP
+B) SMTP
+C) WebSocket
+D) Telnet
+Answer: C
+----------------------------------------------------------------------------------------------------------------------
+What is the main purpose of an operating system? ~ ~
+A) Manage hardware resources
+B) Create web pages
+C) Compile code
+D) Design databases
+Answer: A
+----------------------------------------------------------------------------------------------------------------------
+Which of the following is used for creating dynamic web pages? ~ ~
+A) HTML
+B) CSS
+C) JavaScript
+D) XML
+Answer: C
+----------------------------------------------------------------------------------------------------------------------
+Which of the following is an example of a loop in programming? ~ ~
+A) If statement
+B) For loop
+C) Function
+D) Class
+Answer: B
+----------------------------------------------------------------------------------------------------------------------
+What is the primary purpose of CSS in web development? ~ ~
+A) Handling server requests
+B) Creating interactive elements
+C) Styling web pages
+D) Manipulating databases
+Answer: C
+----------------------------------------------------------------------------------------------------------------------
+Which of the following is not a primary color model used in digital imaging? ~ ~
+A) RGB
+B) CMYK
+C) HSV
+D) YUV
+Answer: D
+----------------------------------------------------------------------------------------------------------------------
+Which of the following is a fundamental unit of digital information? ~ ~
+A) Bit
+B) Byte
+C) Megabyte
+D) Kilobyte
+Answer: A
+----------------------------------------------------------------------------------------------------------------------
+Which programming paradigm emphasizes the use of functions? ~ ~
+A) Object-oriented programming
+B) Procedural programming
+C) Functional programming
+D) Logical programming
+Answer: C
+----------------------------------------------------------------------------------------------------------------------
+Which of the following is a popular NoSQL database? ~ ~
+A) MySQL
+B) PostgreSQL
+C) MongoDB
+D) SQLite
+Answer: C
+----------------------------------------------------------------------------------------------------------------------
+What does HTTP stand for? ~ ~
+A) Hyper Text Transfer Protocol
+B) Hyper Transfer Text Protocol
+C) High-level Transfer Protocol
+D) Hyperlink Transfer Protocol
+Answer: A
+----------------------------------------------------------------------------------------------------------------------
+What will be the output of the following Python code? ~
+def remove_duplicates(lst):
+    return list(set(lst))
+    print(remove_duplicates([1, 2, 3, 3, 4, 5, 5]))~
+A) [1, 2, 3, 3, 4, 5, 5]
+B) [1, 2, 3, 4, 5]
+C) [1, 2, 3, 4, 5, 5]
+D) [1, 2, 3, 4, 5, 5, 5]
+
+Answer: B) [1, 2, 3, 4, 5]
+----------------------------------------------------------------------------------------------------------------------
+What will be the output of the following Python code? ~ def fibonacci(n):
+    fib_series = [0, 1]
+    while len(fib_series) < n:
+        fib_series.append(fib_series[-1] + fib_series[-2])
+    return fib_series
+print(fibonacci(5))~
+
+A) [0, 1, 1, 2, 3]
+B) [0, 1, 1, 2, 3, 5]
+C) [0, 1, 1, 2, 3, 5, 8]
+D) [1, 1, 2, 3, 5]
+
+Answer: B) [0, 1, 1, 2, 3, 5]
+----------------------------------------------------------------------------------------------------------------------
+Implement a C++ function to check if a number is a prime number? ~ #include <iostream>
+#include <cmath>
+
+bool is_prime(int n) {
+    if (n <= 1) {
+        return false;
+    }
+    for (int i = 2; i <= sqrt(n); ++i) {
+        if (n % i == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+int main() {
+    std::cout << std::boolalpha << is_prime(17) << std::endl;
+    return 0;
+}
+~
+A) True
+B) False
+C) None
+D) Error
+
+Answer: A) True
+----------------------------------------------------------------------------------------------------------------------
+What is the output of the code below? ~ public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+~
+A) hello, world!
+B) Hello, World!
+C) Hello World!
+D) Hello, World
+
+Answer=B
+----------------------------------------------------------------------------------------------------------------------
+What is the error in the code below? ~ public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!")
+    }
+}
+~
+A) Incorrect spelling
+B) Missing a curly bracket
+C) Missing semicolon
+D) There is no error
+
+Answer=C
+----------------------------------------------------------------------------------------------------------------------
+What language will this code run succefully without any compilation errors? ~ #include <iostream>
+
+int main() {
+    int num1, num2;
+
+    std::cout << "Enter the first number: ";
+    std::cin >> num1;
+
+    std::cout << "Enter the second number: ";
+    std::cin >> num2;
+
+    int sum = num1 + num2;
+
+    std::cout << "The sum of " << num1 << " and " << num2 << " is: " << sum << std::endl;
+    return 0;
+}
+~
+A) Java
+B) Python
+C) C
+D) C++
+
+Answer=D
+----------------------------------------------------------------------------------------------------------------------
+What calculation is the following code perfoming? ~ #include <iostream>
+int main() {
+    int num1, num2;
+    std::cout << "Enter the first number: ";
+    std::cin >> num1;
+ 
+    std::cout << "Enter the second number: ";
+    std::cin >> num2;
+ 
+    int answer = num1 + num2;
+
+    std::cout << "The answer of " << num1 << " and " << num2 << " is: " << answer << std::endl;
+    return 0;
+}
+~
+A) Subtraction
+B) Multiplication
+C) Division
+D) None of the above
+
+Answer=D
+----------------------------------------------------------------------------------------------------------------------
+Which data structure can be used to perfom the same exact task in code below instead of a vector? ~ #include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<int> myVector;
+
+    myVector.push_back(10);
+    myVector.push_back(20);
+    myVector.push_back(30);
+
+    std::cout << "Printing all Elements :";
+    for (int i = 0; i < myVector.size(); ++i) {
+        std::cout << " " << myVector[i];
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+~
+A) Array
+B) LinkedList
+C) Queue
+D) Stack
+
+Answer=A
+
