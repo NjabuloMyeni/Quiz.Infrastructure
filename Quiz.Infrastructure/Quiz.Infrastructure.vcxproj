@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="QAModel.cpp" />
     <ClCompile Include="Quiz.Infrastructure.cpp" />
     <ClCompile Include="server.cpp" />
     <ClCompile Include="startUp.cpp" />
