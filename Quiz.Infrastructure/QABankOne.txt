@@ -22,6 +22,7 @@ What is the set of instructions written in programming language and interpreted 
 ----------------------------------------------------------------------------------------------------------------------
 What programs are used to communicate via the internet to contacts worldwide? ~ ~CorrectInstant Messaging Apps;Social Media Platforms;Email Clients;Video Conferencing Software
 ----------------------------------------------------------------------------------------------------------------------
+
 What does HTML stand for? ~ ~Hyper Transfer Markup Language;CorrectHyper Text Markup Language;Hyperlink and Text Markup Language;High-level Text Markup Language
 ----------------------------------------------------------------------------------------------------------------------
 Which programming language is commonly used for developing Android applications? ~ ~Swift;CorrectJava;C++;Python
@@ -184,3 +185,4 @@ int main() {
     return 0;
 }~CorrectArray;LinkedList;Queue;Stack
 ----------------------------------------------------------------------------------------------------------------------
+
