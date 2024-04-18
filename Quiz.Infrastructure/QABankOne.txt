@@ -22,4 +22,21 @@ What is the set of instructions written in programming language and interpreted 
 ----------------------------------------------------------------------------------------------------------------------
 What programs are used to communicate via the internet to contacts worldwide? ~ ~
 ----------------------------------------------------------------------------------------------------------------------
-khjh
+What language will this code run successfully without errors? ~ public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}~HTML;CorrectJava;Python;C++
+----------------------------------------------------------------------------------------------------------------------
+What is the output of this code? ~ public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}~HelloWorld;CorrectHello , World;Hello World;hello , world
+----------------------------------------------------------------------------------------------------------------------
+What causes compilation error in this code? ~ public class HelloWorld {
+    public static void (String[] args) {
+        System.out.println("Hello, World!");
+    }
+} ~Correctmain;missing semicolon;missing curly bracket;wrong spelling
+----------------------------------------------------------------------------------------------------------------------
