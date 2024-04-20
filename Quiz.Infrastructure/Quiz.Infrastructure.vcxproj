@@ -127,15 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="QAModel.cpp" />
-    <ClCompile Include="Quiz.Infrastructure.cpp" />
-    <ClCompile Include="server.cpp" />
-    <ClCompile Include="startUp.cpp" />
+    <ClCompile Include="server\QAModel.cpp" />
+    <ClCompile Include="src\Quiz.Infrastructure.cpp" />
+    <ClCompile Include="server\server.cpp" />
+    <ClCompile Include="client\startUp.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="QABankOne.txt" />
-    <Text Include="QABankThree.txt" />
-    <Text Include="QABankTwo.txt" />
+    <Text Include="data\QABankOne.txt" />
+    <Text Include="data\QABankThree.txt" />
+    <Text Include="data\QABankTwo.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
