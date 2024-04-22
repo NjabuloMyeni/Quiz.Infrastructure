@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-#include <vector>
-#include <iostream>
+#include <array>
+
 using namespace std;
 	
 struct QAModel {
