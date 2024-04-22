@@ -2,14 +2,19 @@
 #include <vector>
 #include <fstream>
 #include <string>
-#include "..\..\server\QAModel.cpp"
+#include "..\..\server\Models\QAModel.cpp"
+
 using namespace std;
 
 class dataSource {
+
+private:
+    vector<QAModel> questions;
+
 public:
 
     vector<QAModel> readQuestionsFromFile(const string & filename) {
-        vector<QAModel> questions; // Vector to store questions
+        // Vector to store questions
         ifstream file;   // Open the file
         file.open(filename);
 
@@ -63,7 +68,7 @@ public:
     }
 
     // Function to split a string based on a delimiter and return the parts as a vector
-    vector<string> split(const string & s, const string & delimiter) {
+    /*vector<string> split(const string& s, const string& delimiter) {
         vector<string> parts;
         size_t start = 0;
         size_t end = s.find(delimiter);
@@ -87,5 +92,5 @@ public:
             optionsArray[i] = "";
         }
         return optionsArray;
-    }
+    }*/
 };

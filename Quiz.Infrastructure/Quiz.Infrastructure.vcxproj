@@ -128,7 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="data\dataSource\dataSource.cpp" />
-    <ClCompile Include="server\QAModel.cpp" />
+    <ClCompile Include="server\CompileSessionQuestions.cpp" />
+    <ClCompile Include="server\Models\QAModel.cpp" />
     <ClCompile Include="src\Quiz.Infrastructure.cpp" />
     <ClCompile Include="server\server.cpp" />
     <ClCompile Include="client\startUp.cpp" />
