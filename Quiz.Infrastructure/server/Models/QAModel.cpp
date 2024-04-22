@@ -8,8 +8,9 @@ struct QAModel {
 	string questionLevel;
 	string question;
 	string code;
-	array <string, 4> options;
+	vector <string> options;
 	int answerIndex;
 	time_t timer;
 
 };
+

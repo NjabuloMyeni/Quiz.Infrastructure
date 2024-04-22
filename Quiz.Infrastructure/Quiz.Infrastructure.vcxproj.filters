@@ -18,22 +18,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Quiz.Infrastructure.cpp">
+    <ClCompile Include="server\Models\QAModel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="server.cpp">
+    <ClCompile Include="src\Quiz.Infrastructure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="startUp.cpp">
+    <ClCompile Include="server\server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="QAModel.cpp">
-      <Filter>data</Filter>
+    <ClCompile Include="client\startUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server\CompileSessionQuestions.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="QABankOne.txt">
-      <Filter>data</Filter>
-    </Text>
+    <Text Include="data\QABankOne.txt" />
+    <Text Include="data\QABankThree.txt" />
+    <Text Include="data\QABankTwo.txt" />
   </ItemGroup>
 </Project>
