@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="data\dataSource\dataSource.cpp" />
     <ClCompile Include="server\CompileSessionQuestions.cpp" />
+    <ClCompile Include="client\Models\DisplayModel.cpp" />
     <ClCompile Include="server\Models\QAModel.cpp" />
     <ClCompile Include="server\Models\SessionQuestions.cpp" />
     <ClCompile Include="src\Quiz.Infrastructure.cpp" />
