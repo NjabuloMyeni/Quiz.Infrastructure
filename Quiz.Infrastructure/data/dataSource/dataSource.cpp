@@ -9,22 +9,33 @@ using namespace std;
 class dataSource {
 
 private:
-    vector<QAModel> questions;
+    vector<QAModel> questionBankOne;
+    vector<QAModel> questionBankTwo;
+    vector<QAModel> questionBankThree;
 
 public:
-
-    vector<QAModel> readQuestionsFromFile(const string & filename, string level) {
+    // Getter method for accessing the questions vector
+    vector<QAModel> getQuestionBankOne() {
+        return questionBankOne;
+    }
+    vector<QAModel> getQuestionBankTwo() {
+        return questionBankTwo;
+    }
+    vector<QAModel> getQuestionBankThree() {
+        return questionBankThree;
+    }
+    vector<QAModel> readQuestionsFromFile(const string& filename, string level) {
 
         vector<QAModel> questionLoader;
         string line;
         ifstream fileReader(filename);
-        
+
         if (!fileReader.is_open()) {
             cerr << "Error: Unable to open file" << filename << endl;
             return questionLoader;
         }
 
-        while (getline(fileReader,line, '~')) {
+        while (getline(fileReader, line, '~')) {
             QAModel question;
             question.questionLevel = level;
             question.question = line;
@@ -46,8 +57,37 @@ public:
             }
             else {
                 temp += line[i];
-            }    
+            }
         }
         return splitedString;
     }
+
+    void populateQuestionBanks() {
+        int levelNumber = 1;
+        string level = "level" + levelNumber;
+        string path = "./dataFactory/";
+        string fileName;
+
+        if (levelNumber == 1) {
+            fileName = "QABankOne.txt";
+            questionBankOne = readQuestionsFromFile(path + fileName, level);
+            levelNumber++;
+            level = "level" + levelNumber;
+        }
+        else if (levelNumber == 2) {
+            fileName = "QABankTwo.txt";
+            questionBankTwo = readQuestionsFromFile(path + fileName, level);
+            levelNumber++;
+            level = "level" + levelNumber;
+        }
+        else {
+            fileName = "QABankThree.txt";
+            questionBankThree = readQuestionsFromFile(path + fileName, level);
+           
+        }
+        
+    }
 };
+
+
+   
