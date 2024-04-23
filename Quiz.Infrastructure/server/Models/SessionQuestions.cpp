@@ -6,7 +6,7 @@
 
 using namespace std;
 
-struct markQAModel {
+struct SessionQuestions {
 	
 	string userAnswer;
 	time_t timer;
