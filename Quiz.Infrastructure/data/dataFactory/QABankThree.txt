@@ -1,9 +1,9 @@
 What is the time complexity of finding the shortest path between two nodes in an unweighted graph using breadth-first search (BFS)?~ ~O(V);O(E);CorrectO(V + E);O(V^2)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 Which of the following sorting algorithms has the best worst-case time complexity? ~ ~Bubble Sort;Quick Sort;CorrectMerge Sort;Selection Sort
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 True or False: In object-oriented programming, inheritance violates encapsulation? ~ ~True;CorrectFalse
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What will be the output of the following code snippet in Python? ~ 
 
 python
@@ -15,11 +15,11 @@ def g(x):
     return f(x) + f(x)
 
 print(g(2)) ~ 4;8;Correct16;12
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 In the context of database transactions, what does ACID stand for? ~ ~CorrectAtomicity, Consistency, Isolation, Durability;Aggregate, Commit, Isolate, Distribute;Automated, Continuous, Integrated, Distributed;Access, Constraint, Integrity, Downtime
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 Which of the following statements is true about dynamic programming? ~ ~It is mainly used for solving problems involving recursion.;CorrectIt uses bottom-up approach for solving problems.;It can only be applied to problems with optimal substructure.;It is less efficient compared to greedy algorithms.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What is the output of the following C code? ~ 
 
 c
@@ -31,13 +31,13 @@ int main() {
     printf("%d", ++a);
     return 0;
 }~67;56;66;Correct57
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 True or False: A lambda function in Python can contain multiple statements? ~ ~True;CorrectFalse
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 In relational database design, what does normalization aim to achieve? ~ ~Increase redundancy in the database schema;Reduce efficiency of data retrieval operations;CorrectMinimize data redundancy and dependency;Enhance data integrity
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 Which data structure is typically used to implement priority queues? ~ ~Stack;Queue;CorrectHeap;Linked List
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What is the output of the following Java code? ~ 
 
 java
@@ -48,13 +48,13 @@ public class Main {
         System.out.println(x++ + ++x);
     }
 } ~ 11;12;Correct13;10
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 True or False: In Python, list comprehensions are generally faster than equivalent for loops? ~ ~CorrectTrue;False
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What is the time complexity of searching in a balanced binary search tree (BST)? ~ ~CorrectO(log n);O(n);O(n log n);O(1)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 Which of the following is NOT a property of a hash table? ~ ~Constant-time average-case lookup;CorrectOrdered key-value pairs;Collision resolution;Efficient insertion and deletion operations
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What will be the output of the following JavaScript code? ~ 
 
 javascript
@@ -70,11 +70,11 @@ function outer() {
 let func = outer();
 func();~ Correct10;undefined;Error;It depends on the JavaScript engine
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 True or False: In C++, a virtual function must be defined in the base class? ~ ~True;CorrectFalse
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What is the primary purpose of a constructor in object-oriented programming? ~ ~CorrectTo initialize class variables;To define class methods;To encapsulate data;To perform type conversion
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What will be the output of the following Python code? ~ 
 
 python
@@ -83,30 +83,30 @@ def foo(n):
     return n * foo(n - 1) if n > 0 else 1
 
 print(foo(5)) ~ CorrectComputes the factorial of a number;Raises an error;Computes the Fibonacci sequence;None of the above
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 
 True or False: In Java, the finally block is executed only if an exception occurs? ~ ~CorrectTrue;False
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What does the following SQL query do? ~ 
 
 sql
 Copy code
 SELECT column1, SUM(column2) FROM table_name GROUP BY column1 HAVING SUM(column2) > 100;~CorrectSelects rows where the sum of column2 is greater than 100, grouped by column1;Selects the first row where the sum of column2 is greater than 100;Raises an error;None of the above
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What is the time complexity of the Floyd-Warshall algorithm for finding all-pairs shortest paths in a weighted graph? ~ ~O(V);O(E);O(V^2);CorrectO(V^3)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 Which of the following is a correct statement about the OSI model? ~ ~It has 5 layers: Physical, Data Link, Network, Transport, Application;CorrectIt stands for Open Systems Interconnection;It was developed by TCP/IP;It is a hardware model
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What is the output of the following PHP code? ~ 
 
 php
 Copy code
 $x = 5;
 echo $x++ + ++$x;~10;11;12;Correct13
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 
 True or False: In Python, the pass statement does nothing when executed? ~ ~CorrectTrue;False
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What does the following Swift code snippet do? ~ 
 
 swift
@@ -114,14 +114,14 @@ Copy code
 let numbers = [1, 2, 3, 4, 5]
 let doubled = numbers.map { $0 * 2 }
 print(doubled)~ CorrectDoubles each element in the array;Doubles the first element in the array;Raises an error;None of the above
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What will be the output of the following Ruby code? ~ 
 ruby
 Copy code
 puts "Hello, World".gsub(/[aeiou]/, '*') ~ Hello, World;Hll, Wrld;CorrectHllo, Wrld;H***, W*rld
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 True or False: In SQL, the ORDER BY clause is used to filter rows based on a specified condition? ~ ~True;CorrectFalse
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What does the following TypeScript code snippet do? ~ 
 
 typescript
@@ -139,20 +139,20 @@ class Circle implements Shape {
 
 let circle = new Circle(5);
 console.log(circle.area()); ~ CorrectCalculates the area of a circle with radius 5;Raises an error;Prints 5;None of the above
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What is the output of the following Perl code? ~ 
 perl
 Copy code
 my $string = "Hello, World!";
 $string =~ tr/A-Za-z/N-ZA-Mn-za-m/;
 print "$string\n"; ~ CorrectUryyb, Jbeyq!;Hello, World!;Error;None of the above
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 True or False: In JavaScript, the let keyword can be used to declare variables with block scope? ~ ~CorrectTrue;False
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What is the time complexity of finding the k-th smallest element in an unsorted array using the quickselect algorithm? ~ ~CorrectO(n);O(n log n);O(log n);O(n^2)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 Which of the following is NOT a property of a binary search tree (BST)? ~ ~All nodes in the left subtree of a node have values less than the node's value;All nodes in the right subtree of a node have values greater than the node's value;CorrectIt may contain duplicate values;It can be efficiently searched and sorted
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What is the output of the following Java code? ~ 
 
 java
@@ -164,26 +164,26 @@ public class Main {
         System.out.println(x > 5 ? y < 10 ? 10 : 20 : 30);
     }
 } ~ 10;20;Correct30;Compilation Error
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 True or False: In Python, a decorator can only be applied to functions? ~ ~True;CorrectFalse
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What does the following SQL query do? ~ 
 
 sql
 Copy code
 SELECT column1, COUNT(*) FROM table_name GROUP BY column1;  ~Counts the number of rows in the table;CorrectCounts the number of distinct values in column1;Raises an error;None of the above
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What will be the output of the following JavaScript code? ~ 
 javascript
 Copy code
 console.log(0.1 + 0.2 === 0.3); ~ True;CorrectFalse
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 True or False: In Java, an abstract class can be instantiated? ~ ~True; CorrectFalse
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What is the time complexity of finding the shortest path between two nodes in a weighted graph using Dijkstra's algorithm? ~ ~O(V);O(E);CorrectO(V log V);O(V^2)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 Which of the following is NOT a valid HTTP request method? ~ ~GET;POST;PUT;CorrectUPDATE
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What does the following Python code snippet do? ~ 
  
 python
@@ -192,9 +192,9 @@ def foo(n):
     return n * foo(n - 1) if n > 0 else 1
 
 print(foo(5)) ~ CorrectComputes the factorial of a number;Raises an error;Computes the Fibonacci sequence;None of the above
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 True or False: In C, a structure can contain a function as one of its members? ~ ~True;CorrectFalse
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What will be the output of the following Ruby code? ~ 
 
 ruby
@@ -204,19 +204,19 @@ def greet(name = "World")
 end
 
 greet("John")~ CorrectHello, John!;Hello, World!;Error;None of the above
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What does the following SQL query do? ~
 sql
 Copy code
 SELECT column1 FROM table_name WHERE column2 IS NULL; ~ Selects rows where column1 is NULL;CorrectSelects rows where column2 is NULL;Selects rows where column1 is not NULL;Selects rows where column2 is not NULL
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What is the output of the following Python code? ~ 
 python
 Copy code
 print("Hello, {}!".format("World")) ~ Hello, {}!;CorrectHello, World!;Error;None of the above
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 True or False: In JavaScript, the == operator compares both value and type? ~ ~True;CorrectFalse
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What will be the output of the following Java code? ~ 
 
 java
@@ -228,9 +228,9 @@ public class Main {
         System.out.println(s1 == s2);
     }
 } ~ True;CorrectFalse
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 Which of the following is NOT a valid way to create a new thread in Java? ~ ~Extending the Thread class;Implementing the Runnable interface;Using the Executor framework;CorrectUsing the sleep() method
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
 What does the following TypeScript code snippet do? ~ 
 
 typescript
@@ -241,4 +241,4 @@ function add(a: number, b: number): number {
 
 let result = add(5, '5');
 console.log(result); ~ Adds two numbers;CorrectRaises an error;Runtime error
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@
