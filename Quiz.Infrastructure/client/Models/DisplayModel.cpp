@@ -1,16 +1,15 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include"..\..\server\Models\QAModel.cpp"
 
 using namespace std;
 
 struct DisplayModel {
-	string question;
-	string questionLevel;
-	string playerName;
-	time_t timer;
-	int playerScore;
-	string code;
-	vector <string> options;
+
+	QAModel questionModel;
+	string userName;
+	int userScore;
+	
 };
 
