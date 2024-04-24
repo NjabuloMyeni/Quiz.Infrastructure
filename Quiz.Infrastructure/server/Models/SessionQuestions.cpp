@@ -6,7 +6,7 @@
 
 using namespace std;
 
-struct SessionQuestions {
+struct SessionQuestionsModel {
 	
 	string userAnswer;
 	time_t timer;
