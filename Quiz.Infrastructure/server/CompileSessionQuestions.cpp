@@ -1,7 +1,7 @@
-#include<iostream>
-#include<vector>
-#include<random>
-#include"..\server\Models\QAModel.cpp"
+#include<iostream>;
+#include<vector>;
+#include<random>;
+#include"..\server\Models\QAModel.cpp";
 
 using namespace std;
 
@@ -10,10 +10,14 @@ private:
 	vector<QAModel>sessionQuestions;
 
 public:
-	vector<QAModel>compileQuestions(vector<QAModel>& levelQuestions) {
+	void compileQuestions(const vector<QAModel>& levelQuestions) {
 		for (int i = 0; i <= 4; i++) {
 			int index = rand() % levelQuestions.size();
 			sessionQuestions.push_back(levelQuestions[index]);
 		}
+	}
+
+	vector<QAModel> getSessionQuestions() {
+		return sessionQuestions;
 	}
 };

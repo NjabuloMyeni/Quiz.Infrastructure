@@ -1,8 +1,9 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <iostream>
+#include <iostream>;
+#include <string>;
+#include <vector>;
+#include <iostream>;
 #include "QAModel.cpp";
+#pragma once
 
 using namespace std;
 

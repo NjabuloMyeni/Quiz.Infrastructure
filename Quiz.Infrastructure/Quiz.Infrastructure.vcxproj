@@ -131,7 +131,7 @@
     <ClCompile Include="server\CompileSessionQuestions.cpp" />
     <ClCompile Include="client\Models\DisplayModel.cpp" />
     <ClCompile Include="server\Models\QAModel.cpp" />
-    <ClCompile Include="server\Models\SessionQuestions.cpp" />
+    <ClCompile Include="server\Models\SessionQuestionModel.cpp" />
     <ClCompile Include="src\Quiz.Infrastructure.cpp" />
     <ClCompile Include="server\server.cpp" />
     <ClCompile Include="client\startUp.cpp" />

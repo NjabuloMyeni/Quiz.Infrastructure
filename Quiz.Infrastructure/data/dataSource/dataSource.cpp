@@ -1,8 +1,8 @@
-#include <iostream>
-#include <vector>
-#include <fstream>
-#include <string>
-#include "..\..\server\Models\QAModel.cpp"
+#include <iostream>;
+#include <vector>;
+#include <fstream>;
+#include <string>;
+#include "..\..\server\Models\QAModel.cpp";
 
 using namespace std;
 
@@ -24,11 +24,12 @@ public:
     vector<QAModel> getQuestionBankThree() {
         return questionBankThree;
     }
-    vector<QAModel> readQuestionsFromFile(const string& filename, string level) {
+    vector<QAModel> readQuestionsFromFile(string filename, string level) {
 
         vector<QAModel> questionLoader;
         string line;
-        ifstream fileReader(filename);
+        ifstream fileReader;
+        fileReader.open(filename);
 
         if (!fileReader.is_open()) {
             cerr << "Error: Unable to open file" << filename << endl;
@@ -64,26 +65,25 @@ public:
 
     void populateQuestionBanks() {
         int levelNumber = 1;
-        string level = "level" + levelNumber;
-        string path = "./dataFactory/";
+        string level = "level" + to_string(levelNumber);
+        string path = "././data/dataFactory/";
         string fileName;
 
         if (levelNumber == 1) {
             fileName = "QABankOne.txt";
             questionBankOne = readQuestionsFromFile(path + fileName, level);
             levelNumber++;
-            level = "level" + levelNumber;
+            level = "level" + to_string(levelNumber);
         }
-        else if (levelNumber == 2) {
+        if (levelNumber == 2) {
             fileName = "QABankTwo.txt";
             questionBankTwo = readQuestionsFromFile(path + fileName, level);
             levelNumber++;
-            level = "level" + levelNumber;
+            level = "level" + to_string(levelNumber);
         }
-        else {
+        if (levelNumber == 3) {
             fileName = "QABankThree.txt";
             questionBankThree = readQuestionsFromFile(path + fileName, level);
-           
         }
         
     }
