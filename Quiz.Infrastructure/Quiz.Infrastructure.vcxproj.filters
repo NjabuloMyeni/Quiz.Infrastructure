@@ -33,10 +33,19 @@
     <ClCompile Include="server\CompileSessionQuestions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="data\dataSource\dataSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\Models\DisplayModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server\Models\SessionQuestionModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="data\QABankOne.txt" />
-    <Text Include="data\QABankThree.txt" />
-    <Text Include="data\QABankTwo.txt" />
+    <Text Include="data\dataFactory\QABankOne.txt" />
+    <Text Include="data\dataFactory\QABankThree.txt" />
+    <Text Include="data\dataFactory\QABankTwo.txt" />
   </ItemGroup>
 </Project>
